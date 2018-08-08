@@ -1,0 +1,5 @@
+<ul class="nav flex-column">
+  <li class="nav-item" *ngFor="let video of videos" (click)="onSelect(video)" style="cursor: pointer;">
+    <a class="nav-link active">{{video.title}}</a>
+  </li>
+</ul>
